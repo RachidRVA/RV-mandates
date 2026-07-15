@@ -7,13 +7,15 @@ Les trois points en suspens ont été tranchés par la cliente le 15/07/2026.
 Le personnage est bien **une adolescente (une fille)**. Le texte approuvé — *« Une adolescente de
 banlieue… »* — est donc correct et reste **inchangé**.
 
-## 2. L'image de héros — ✅ RÉSOLU (intégration en cours)
+## 2. L'image de héros — ✅ RÉSOLU
 
-La cliente fournit une **image de lune réelle** (libre de droits) pour le héros. Dès réception, elle
-sera mattée proprement (fond détouré) et placée dans le héros des deux maquettes.
+Le héros affiche désormais une **vraie pleine lune**, à droite du titre (les deux palettes).
 
-> État actuel : en attendant l'image définitive, le héros affiche le **croissant graphique** comme
-> provisoire. Il sera remplacé par la photo de lune fournie.
+- **Image définitive retenue : NASA PIA00405** (composite Galileo, domaine public, libre de droits).
+- La maquette utilise une **lune provisoire** (extraite de l'ancien visuel) : cet environnement ne
+  peut pas récupérer l'image NASA en ligne. Lors de la construction dans Site Creator, il suffira de
+  téléverser `PIA00405~large.jpg` (passée en niveaux de gris) à la place — même emplacement.
+- Aucun halo, aucun reflet, aucune montagne : uniquement le disque lunaire.
 
 ## 3. Le nom de domaine — ✅ RÉSOLU
 
