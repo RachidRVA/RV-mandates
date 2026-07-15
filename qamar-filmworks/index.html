@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aperçu — Qamar Filmworks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ground:#0E0E10;--ink:#ECEAE3;--muted:#9A968C;--hair:#26262B;--accent:#C2A878;--raised:#141417;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--ground);color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  .serif{font-family:'Fraunces',Georgia,serif;font-optical-sizing:auto;}
+  .wrap{max-width:1040px;margin:0 auto;padding:clamp(40px,8vw,110px) clamp(22px,5vw,56px);}
+  .brand{display:inline-flex;align-items:center;gap:11px;font-family:'Fraunces',serif;font-weight:500;
+    font-size:16px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:clamp(46px,8vw,80px);}
+  .cres{width:16px;height:16px;}
+  .eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);
+    font-weight:500;margin:0 0 22px;}
+  h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(2.2rem,6vw,3.6rem);
+    line-height:1.05;letter-spacing:-.02em;margin:0 0 .5em;max-width:16ch;}
+  .intro{color:var(--muted);max-width:56ch;margin:0 0 clamp(44px,7vw,68px);font-size:1.06rem;}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  a.card{display:flex;flex-direction:column;justify-content:space-between;min-height:210px;
+    text-decoration:none;color:inherit;background:var(--raised);border:1px solid var(--hair);
+    padding:28px 26px;transition:border-color .25s, transform .25s;}
+  a.card:hover{border-color:var(--accent);transform:translateY(-3px);}
+  .card .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);}
+  .card h2{font-family:'Fraunces',serif;font-weight:500;font-size:1.5rem;letter-spacing:-.01em;margin:18px 0 6px;}
+  .card p{color:var(--muted);font-size:.94rem;margin:0;}
+  .card .go{margin-top:22px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);}
+  .card .go .arw{color:var(--accent);}
+  .note{margin-top:clamp(44px,7vw,64px);padding-top:26px;border-top:1px solid var(--hair);
+    color:var(--muted);font-size:.9rem;max-width:70ch;}
+  @media (max-width:760px){.cards{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="brand"><svg class="cres" viewBox="0 0 100 100" aria-hidden="true"><defs><mask id="c"><rect width="100" height="100" fill="#fff"/><circle cx="62" cy="40" r="34" fill="#000"/></mask></defs><circle cx="50" cy="50" r="38" fill="#C2A878" mask="url(#c)"/></svg>Qamar&nbsp;Filmworks</span>
+
+    <p class="eyebrow">Aperçu de conception</p>
+    <h1 class="serif">Le site de Qamar Filmworks, en aperçu.</h1>
+    <p class="intro">Deux versions de la même page — une sombre, une claire — et les trois directions de logotype. À regarder pour choisir la palette et le logotype, puis valider les textes. Ceci est une référence de design : le site final sera reconstruit dans Infomaniak Site Creator.</p>
+
+    <div class="cards">
+      <a class="card" href="mockup-dark.html">
+        <span class="k">Version 01</span>
+        <div><h2 class="serif">Sombre</h2><p>Cinématographique, salle de projection. Fond près-du-noir, lune en héros.</p></div>
+        <span class="go">Ouvrir <span class="arw">→</span></span>
+      </a>
+      <a class="card" href="mockup-light.html">
+        <span class="k">Version 02</span>
+        <div><h2 class="serif">Claire</h2><p>Éditoriale, galerie. Fond blanc cassé chaud, même structure.</p></div>
+        <span class="go">Ouvrir <span class="arw">→</span></span>
+      </a>
+      <a class="card" href="wordmarks.html">
+        <span class="k">Logotype</span>
+        <div><h2 class="serif">Trois pistes</h2><p>Trois directions typographiques pour « Qamar Filmworks », à comparer.</p></div>
+        <span class="go">Ouvrir <span class="arw">→</span></span>
+      </a>
+    </div>
+
+    <p class="note">Astuce : chaque page défile sur une seule colonne, avec un menu ancré (Approche · Vision · Films · Équipe · Contact). La lune du héros est une version provisoire — l'image définitive (NASA, domaine public) sera posée lors de la construction du site.</p>
+  </div>
+</body>
+</html>
