@@ -1,34 +1,23 @@
-# Qamar Filmworks — Questions ouvertes
+# Qamar Filmworks — Questions ouvertes (résolues)
 
-Trois points restent à trancher **par la cliente**. Ils ne bloquent pas la maquette, mais doivent
-être décidés avant la mise en ligne.
+Les trois points en suspens ont été tranchés par la cliente le 15/07/2026.
 
-## 1. Le genre du personnage (section « En développement »)
+## 1. Le genre du personnage (section « En développement ») — ✅ RÉSOLU
 
-Le texte approuvé dit : *« Une adolescente de banlieue portée par un désir urgent de réussir. »*
+Le personnage est bien **une adolescente (une fille)**. Le texte approuvé — *« Une adolescente de
+banlieue… »* — est donc correct et reste **inchangé**.
 
-Le mot **« adolescente »** suppose un personnage féminin. **Rien dans le matériau source ne
-précise le genre du personnage** — c'est une hypothèse, pas une information confirmée. Le texte a
-été laissé **exactement tel qu'écrit** dans la maquette ; ce point n'a pas été modifié.
+## 2. L'image de héros — ✅ RÉSOLU (intégration en cours)
 
-→ **À confirmer :** le personnage est-il bien une adolescente ? Sinon, le mot devra être ajusté
-(« Un·e adolescent·e », « Un adolescent », ou une reformulation).
+La cliente fournit une **image de lune réelle** (libre de droits) pour le héros. Dès réception, elle
+sera mattée proprement (fond détouré) et placée dans le héros des deux maquettes.
 
-## 2. L'image de héros
+> État actuel : en attendant l'image définitive, le héros affiche le **croissant graphique** comme
+> provisoire. Il sera remplacé par la photo de lune fournie.
 
-**Aucune image de héros exploitable n'existe** à ce jour. L'ancien visuel (lune photoréaliste,
-typographie chromée) est écarté volontairement — il ne correspond pas au positionnement.
+## 3. Le nom de domaine — ✅ RÉSOLU
 
-La maquette livre donc un **héros en texte seul**, conçu pour être publié tel quel. Aucune image
-d'illustration (stock) n'a été utilisée, et il ne faut pas en ajouter.
-
-→ **À décider :** souhaitez-vous fournir une **photographie plein cadre** (un photogramme, une
-image de tournage) à intégrer plus tard en fond de section ? Sinon, la version texte reste le point
-de départ.
-
-## 3. Le nom de domaine
-
-L'adresse de contact est pour l'instant un **espace réservé** : `contact@[domaine].com`.
-
-→ **À fixer :** le domaine définitif (par ex. `qamarfilmworks.com`), afin de mettre à jour
-l'adresse e-mail dans les sections Contact et pied de page.
+Domaine retenu : **qamarfilmworks.com**.
+- Email de contact affiché : **selou@qamarfilmworks.com** (repris de la carte de visite).
+- Coordonnées ajoutées à la section Contact : téléphone **07 68 01 90 96**, adresse
+  **47 rue Vivienne, 75002 Paris, France**.

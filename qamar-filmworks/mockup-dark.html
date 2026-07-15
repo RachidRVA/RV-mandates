@@ -34,22 +34,17 @@ body{
 img{max-width:100%; display:block;}
 a{color:inherit;}
 .serif{font-family:'Fraunces',Georgia,'Times New Roman',serif; font-optical-sizing:auto;}
-
-/* layout */
 .wrap{max-width:1180px; margin:0 auto; padding:0 clamp(22px,5vw,64px);}
 .col{max-width:660px;}
 section{padding:clamp(64px,10vw,132px) 0;}
 .rule{height:1px; background:var(--hair); border:0; margin:0;}
-.eyebrow{
-  font-size:12px; letter-spacing:.22em; text-transform:uppercase;
-  color:var(--accent); font-weight:500; margin:0 0 26px;
-}
+.eyebrow{font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--accent); font-weight:500; margin:0 0 26px;}
 .eyebrow.mut{color:var(--muted);}
 p{margin:0 0 1.15em; color:var(--ink);}
 .lede{color:var(--muted);}
 .muted{color:var(--muted);}
 
-/* nav */
 .nav{position:sticky; top:0; z-index:50; background:var(--ground);
   border-bottom:1px solid var(--hair);}
 .nav-inner{display:flex; align-items:center; justify-content:space-between;
@@ -68,11 +63,12 @@ p{margin:0 0 1.15em; color:var(--ink);}
   padding:6px 0; transition:color .25s;}
 .nav a.link:hover{color:var(--ink);}
 
-/* hero */
 .hero{position:relative; min-height:min(88vh,760px); display:flex; align-items:center;
   padding:clamp(90px,16vh,150px) 0 clamp(64px,10vh,110px); overflow:hidden;}
 .hero .cres-big{position:absolute; right:clamp(-60px,-2vw,-20px); top:14%;
   width:clamp(160px,26vw,340px); height:auto; opacity:.10; pointer-events:none;}
+.hero .moon-big{position:absolute; right:clamp(-30px,2vw,40px); top:12%;
+  width:clamp(180px,30vw,420px); height:auto; opacity:.92; pointer-events:none;}
 .hero-inner{position:relative; max-width:880px;}
 .hero .eyebrow{margin-bottom:34px;}
 .h1{font-weight:400; font-size:clamp(2.7rem,7.2vw,5.4rem); line-height:1.02;
@@ -86,13 +82,11 @@ p{margin:0 0 1.15em; color:var(--ink);}
 .cta:hover{gap:20px;}
 .cta .arw{color:var(--accent);}
 
-/* section head */
 .shead{margin-bottom:clamp(40px,6vw,66px); max-width:760px;}
 .shead .chapo{font-family:'Fraunces',serif; font-weight:400;
   font-size:clamp(1.55rem,3.4vw,2.5rem); line-height:1.16; letter-spacing:-.01em;
   margin:0; color:var(--ink);}
 
-/* numbered blocks */
 .blocks{display:grid; gap:0;}
 .block{display:grid; grid-template-columns:minmax(72px,0.5fr) 1fr;
   gap:clamp(20px,5vw,68px); padding:clamp(34px,5vw,52px) 0;
@@ -106,7 +100,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 .block p:last-child{margin-bottom:0;}
 .block .body{max-width:56ch;}
 
-/* trio (ce que nous faisons) */
 .trio{display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(28px,4vw,52px);
   border-top:1px solid var(--hair); padding-top:clamp(40px,5vw,60px);}
 .trio .cell .num{font-family:'Fraunces',serif; color:var(--accent);
@@ -115,7 +108,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
   letter-spacing:-.01em; margin:0 0 .6em;}
 .trio .cell p{color:var(--muted); font-size:.98rem; margin:0;}
 
-/* vision */
 .vision{background:var(--ground);}
 .exergue{font-family:'Fraunces',serif; font-style:italic; font-weight:400;
   font-size:clamp(1.9rem,5vw,3.5rem); line-height:1.14; letter-spacing:-.015em;
@@ -123,7 +115,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 .vision .body{max-width:640px; font-size:1.06rem;}
 .vision .body p{color:var(--muted);}
 
-/* film / en developpement */
 .film{border:1px solid var(--hair); padding:clamp(38px,6vw,80px);
   background:var(--raised);}
 .film .eyebrow{margin-bottom:30px;}
@@ -132,7 +123,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
   margin:0 0 .7em; max-width:20ch;}
 .film p{color:var(--muted); max-width:56ch; font-size:1.06rem; margin:0;}
 
-/* team */
 .team{display:grid; grid-template-columns:0.78fr 1fr; gap:clamp(34px,6vw,80px);
   align-items:start;}
 .team .portrait{width:100%; height:auto; background:var(--raised);
@@ -146,8 +136,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 .team .bio p{color:var(--muted); font-size:1.02rem;}
 .team .bio p:first-child{color:var(--ink);}
 
-/* contact */
-.contact{text-align:left;}
 .contact h2{font-family:'Fraunces',serif; font-weight:400;
   font-size:clamp(2.4rem,6vw,4rem); letter-spacing:-.02em; margin:0 0 .35em;}
 .contact .intro{color:var(--muted); font-size:1.12rem; max-width:40ch; margin:0 0 clamp(40px,5vw,56px);}
@@ -166,11 +154,15 @@ p{margin:0 0 1.15em; color:var(--ink);}
   background:var(--ink); color:var(--ground); border:0;
   font-family:'Inter',sans-serif; font-size:12.5px; letter-spacing:.18em;
   text-transform:uppercase; font-weight:500; padding:16px 30px;}
-.contact .mailrow{margin-top:clamp(40px,5vw,56px); font-size:.95rem; color:var(--muted);
-  letter-spacing:.02em;}
-.contact .mailrow a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--accent); padding-bottom:2px;}
+.coords{margin-top:clamp(44px,6vw,64px); padding-top:clamp(30px,4vw,40px);
+  border-top:1px solid var(--hair); display:grid;
+  grid-template-columns:repeat(3,auto); gap:26px 64px; justify-content:start;}
+.coords .clabel{display:block; font-size:11px; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--accent); margin-bottom:9px; font-weight:500;}
+.coords .cval{font-size:1rem; color:var(--ink); line-height:1.5;}
+.coords a{color:inherit; text-decoration:none; border-bottom:1px solid var(--fieldline); padding-bottom:2px;}
+.coords a:hover{border-color:var(--accent);}
 
-/* footer */
 .foot{border-top:1px solid var(--hair); padding:clamp(44px,6vw,64px) 0;}
 .foot-inner{display:flex; flex-wrap:wrap; gap:24px 40px; align-items:center;
   justify-content:space-between;}
@@ -178,23 +170,23 @@ p{margin:0 0 1.15em; color:var(--ink);}
 .foot .meta{font-size:12.5px; letter-spacing:.06em; color:var(--faint);}
 .foot .meta a{color:var(--muted); text-decoration:none;}
 
-/* reveal (progressive, JS-only) */
 .js .reveal{opacity:0; transform:translateY(16px); transition:opacity .8s ease,transform .8s ease;}
 .js .reveal.in{opacity:1; transform:none;}
 
-/* responsive */
 @media (max-width:820px){
   body{font-size:16px;}
   .team{grid-template-columns:1fr; gap:34px;}
   .team .portrait{max-width:420px;}
   .trio{grid-template-columns:1fr; gap:34px;}
   .form{grid-template-columns:1fr;}
+  .coords{grid-template-columns:1fr; gap:22px;}
 }
 @media (max-width:620px){
   .block{grid-template-columns:1fr; gap:14px;}
   .block .num{font-size:2rem;}
   .nav .brand span.long{display:none;}
-  .hero .cres-big{opacity:.08;}
+  .hero .cres-big,.hero .moon-big{opacity:.08;}
+  .hero .moon-big{opacity:.6;}
 }
 
 </style>
@@ -207,7 +199,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
   <nav><ul><li><a class="link" href="#approche">Approche</a></li><li><a class="link" href="#vision">Vision</a></li><li><a class="link" href="#films">Films</a></li><li><a class="link" href="#equipe">Équipe</a></li><li><a class="link" href="#contact">Contact</a></li></ul></nav>
 </div></header>
 
-<!-- HERO -->
 <section class="hero" id="hero">
   <svg class="cres cres-big" width="340" height="340" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><mask id="chero"><rect width="100" height="100" fill="#fff"/><circle cx="62" cy="40" r="34" fill="#000"/></mask></defs><circle cx="50" cy="50" r="38" fill="var(--accent)" mask="url(#chero)"/></svg>
   <div class="wrap hero-inner reveal">
@@ -218,7 +209,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
   </div>
 </section>
 
-<!-- NOTRE APPROCHE -->
 <section id="approche"><div class="wrap">
   <div class="shead reveal">
     <p class="eyebrow">Notre approche</p>
@@ -263,7 +253,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 
 <hr class="rule">
 
-<!-- VISION -->
 <section id="vision" class="vision"><div class="wrap">
   <p class="eyebrow reveal">Vision</p>
   <blockquote class="exergue serif reveal">« De nouvelles voies pour le cinéma indépendant. »</blockquote>
@@ -277,7 +266,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 
 <hr class="rule">
 
-<!-- CE QUE NOUS FAISONS -->
 <section id="faisons"><div class="wrap">
   <div class="shead reveal">
     <p class="eyebrow">Ce que nous faisons</p>
@@ -292,7 +280,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 
 <hr class="rule">
 
-<!-- EN DEVELOPPEMENT -->
 <section id="films"><div class="wrap">
   <div class="film reveal">
     <p class="eyebrow">En développement · Premier long métrage</p>
@@ -303,7 +290,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 
 <hr class="rule">
 
-<!-- EQUIPE -->
 <section id="equipe"><div class="wrap">
   <p class="eyebrow reveal">L'équipe</p>
   <div class="team">
@@ -327,7 +313,6 @@ p{margin:0 0 1.15em; color:var(--ink);}
 
 <hr class="rule">
 
-<!-- CONTACT -->
 <section id="contact" class="contact"><div class="wrap">
   <div class="reveal" style="max-width:820px">
     <h2 class="serif">Parlons-en.</h2>
@@ -338,13 +323,17 @@ p{margin:0 0 1.15em; color:var(--ink);}
       <div class="field full"><label for="projet">Votre projet</label><textarea id="projet"></textarea></div>
       <div class="submit"><button class="btn" type="submit">Envoyer <span class="arw">→</span></button></div>
     </form>
-    <p class="mailrow">Ou directement : <a href="mailto:contact@[domaine].com">contact@[domaine].com</a></p>
+    <div class="coords">
+      <div><span class="clabel">Email</span><span class="cval"><a href="mailto:selou@qamarfilmworks.com">selou@qamarfilmworks.com</a></span></div>
+      <div><span class="clabel">Téléphone</span><span class="cval"><a href="tel:+33768019096">07 68 01 90 96</a></span></div>
+      <div><span class="clabel">Adresse</span><span class="cval">47 rue Vivienne<br>75002 Paris, France</span></div>
+    </div>
   </div>
 </div></section>
 
 <footer class="foot"><div class="wrap foot-inner">
   <a class="brand" href="#top"><svg class="cres" width="14" height="14" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><mask id="cfoot"><rect width="100" height="100" fill="#fff"/><circle cx="62" cy="40" r="34" fill="#000"/></mask></defs><circle cx="50" cy="50" r="38" fill="var(--accent)" mask="url(#cfoot)"/></svg><span>Qamar</span>&nbsp;<span class="long">Filmworks</span></a>
-  <div class="meta">© 2026 Qamar Filmworks Production · <a href="mailto:contact@[domaine].com">contact@[domaine].com</a></div>
+  <div class="meta">© 2026 Qamar Filmworks Production · <a href="mailto:selou@qamarfilmworks.com">selou@qamarfilmworks.com</a> · qamarfilmworks.com</div>
 </div></footer>
 
 <script>

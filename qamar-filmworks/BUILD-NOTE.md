@@ -65,8 +65,8 @@ effet métallique.** L'accent est un aplat mat.
 | **Croissant** (motif de lune) | Dessiné en SVG dans la maquette | Téléverser le croissant comme **image** (extrait des PNG de logotype), ou utiliser le logotype choisi qui le contient déjà. |
 | **Logotype** dans l'en-tête | Composé en HTML dans la maquette | Téléverser le **PNG transparent** de la direction retenue (`wordmark-w{n}-{dark/light}.png`). |
 | **Apparition en fondu au défilement** | Petit script (amélioration progressive) | Utiliser l'animation « fondu / apparition » **native** de Site Creator par bloc — ou ne rien mettre. Le site reste parfaitement lisible sans animation. |
-| **Image de héros plein cadre** | La maquette livre une version **texte seul** | Si une photo arrive un jour : la placer en **image de fond de section** derrière le titre. Sinon, garder la version texte — elle est faite pour être publiée telle quelle. |
-| **Formulaire de contact** | Statique dans la maquette | Reconstruire avec le **bloc formulaire natif** de Site Creator. Champs : `Nom`, `Email`, `Votre projet`. |
+| **Lune du héros** | Image détourée (fond transparent) | Téléverser le PNG de lune fourni comme **image** dans le bloc héros. *(En attente de l'image définitive de la cliente ; le croissant graphique sert de provisoire.)* |
+| **Formulaire de contact** | Statique dans la maquette | Reconstruire avec le **bloc formulaire natif** de Site Creator. Champs : `Nom`, `Email`, `Votre projet`. Sous le formulaire : bloc de coordonnées (email, téléphone, adresse). |
 | **Portrait** | Rectangle généreux, sans recadrage | Bloc image simple. Ne pas recadrer en cercle, ne pas appliquer de filtre ni d'effet au survol. |
 | **Chiffres 01–04 / 01–03** | Grands chiffres Fraunces | Simple texte en Fraunces. **Pas d'icônes** — les chiffres sont le motif. |
 
@@ -75,6 +75,12 @@ effet métallique.** L'accent est un aplat mat.
 Menu collant, minimal : `Approche · Vision · Films · Équipe · Contact`.
 Ancres : `#approche` · `#vision` (suivie de « Ce que nous faisons ») · `#films` (En développement) ·
 `#equipe` · `#contact`.
+
+## Coordonnées & domaine
+
+- Domaine : **qamarfilmworks.com**
+- Email affiché : **selou@qamarfilmworks.com**
+- Téléphone : **07 68 01 90 96** · Adresse : **47 rue Vivienne, 75002 Paris, France**
 
 ## Structure de la page (une seule page, défilement)
 
